@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html class="ht1">
+    <head> 
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="signup.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+    </head>
+    <body class="bd1">
+
+        <div class="hr"> 
+            <h1>Create your account at xyz</h1>
+            <div class="p">
+                <p>Fill up this form and get your free account at xyz.Enjoy your free trial.
+                </p>
+            </div>
+        </div>
+        <div class="myform">
+            <form action="signup.php" method="post" id="myform">
+
+                <div class="header">   
+                    <h2>Signup!
+                    </h2>
+                </div> 
+                <div class="u1">  
+                    Username:
+                    <div class="username" >
+                        <input type="text" name="username" id="username">
+                    </div>
+                </div>
+                <div class="e1">
+                    E-mail address:
+                    <div class="email">
+                        <input type="text" name="email" id="email">
+                    </div>
+                </div>
+                <div class="pw"> 
+                    Password:
+                    <div class="pwd">
+                        <input type="password" name="password" id="password">
+                    </div>
+                </div>
+                <div class="cpw"> 
+                    Confirm password:
+                    <div class="cpwd">
+                        <input type="password" name="cpwd" id="cpwd">
+                    </div>
+                </div>
+                <div class="c1"> 
+                    Country: 
+                    <div class="country">
+                        <select name="country" id="country">
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Albania">Albania</option>
+                            <option value="India">India</option>
+                            <option value="United Kingdom">United Kingdom</option>
+                            <option value="United States of America">United States of America</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="g1"> 
+                    Gender:
+                    <div class="gender">
+                        <input type="radio" name="gender" id="gender" value="Male" checked>Male
+                        <input type="radio" name="gender" id="gender" value="Female">Female
+                    </div>
+                </div>
+                <div class="d1"> 
+                    Date of birth:
+                    <div class="dob">
+                        <input type="text" name="dob" id="dob">
+                    </div>
+                </div>
+                <div class="cat"> 
+                    Category:
+                    <div class="category">
+                        <select name="category" id="category">
+                            <option value="Basic Users">Basic users</option>
+                            <option value="Premium users">Premium users</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="agreement" value="agree" id="agree">I agree to the <a href="terms.html"> Terms of Service and Privacy Policy</a>
+                </div>
+                <div class="sign">
+                    <input type="button" onclick="return submitForm()" value="Signup">;
+
+                </div>
+            </form>
+            <div class="a1" id="a1"></div>
+            <div class="slideDiv" id="slideDiv"></div>
+        </div>
+       
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+        
+        <script src="signup.js"></script> 
+
+        
+
+    </body>
+
+</html>

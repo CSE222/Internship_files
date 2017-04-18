@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link rel="stylesheet" href="retrieve.css">
+        
+    </head>
+    <body>
+        <div class="header">
+            <h1>Welcome to xyz</h1></div>
+        <div class="desc"><p>Login</p></div>
+        <div class="forminput">
+         <form action="login.php" method="post" id="forminput">   
+             
+        <div class="usninput">
+            <p>Enter the username:</p>
+            <input type="text" name ="usn" id="usn">
+        </div>
+        <div class="pwdinput">
+            <p>Enter the password:</p> 
+            <input type="password" name="pwd" id="pwd"> 
+        </div>
+             <div class="forgotpwd"><a href="forgotpwd.php">Forgot Password?</a></div>
+        <div class="submitinput">
+            <input type="button" name="submit" onclick="return submitf()" value="Submit">
+        </div>
+              <div class="signup">
+            <p> Don't have an account already?</p>
+            <a href="index.php">Signup</a>
+        </div>
+        </div>
+       
+        
+   <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+        <script src="login.js"></script>
+        
+    </body>
+    
+</html>

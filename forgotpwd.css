@@ -1,0 +1,92 @@
+@font-face
+{
+    font-family: 'roboto';
+    src: url('fonts/Roboto-Light.ttf');
+}
+
+html{
+    height:100%;
+    width:100%;
+}
+body{
+    font-family:roboto;
+    height:90%;
+    width:90%;
+    color:white;
+    background-image: url('7.jpg');
+    padding:10px;
+    background-size: cover;
+}
+form{
+    height:70%;
+    width:20%;
+    color:white;
+    background-color:#25070C;
+    opacity:0.8;
+    position:fixed;
+    bottom:20%;
+    right:60%;
+    padding:10px;
+    border-radius:15px;
+}
+input[type='text']
+{
+    height:32%;
+    width:100%;
+}
+input[type='password']
+{
+    height:32%;
+    width:100%;
+}
+input[type='button']
+{
+    padding:5px;
+    height:40%;
+    width:100%;
+    
+}
+.usn
+{
+    height:15%;
+    width:90%;
+    color:white;
+    padding:5px;
+}
+.pwd{
+    height:15%;
+    width:90%;
+    color:white;
+    padding:5px;
+}
+.dob
+{ 
+height:15%;
+    width:90%;
+    color:white;
+    padding:5px;
+    }
+    .pwd{
+        height:15%;
+    width:90%;
+    color:white;
+    padding:5px;
+    }
+    .cpwd{
+        height:15%;
+    width:90%;
+    color:white;
+    padding:5px;
+    }
+    .submit
+    {
+        height:15%;
+        width:90%;
+        color:white;
+    padding:5px;
+    }
+/* 
+    Created on : Dec 18, 2015, 5:20:05 PM
+    Author     : Ishita
+*/
+

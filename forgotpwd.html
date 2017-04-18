@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="forgotpwd.css">
+        
+    </head>
+    <body>
+        
+        <form method="post" action="forgot.php">
+        <div class="usn">
+            Enter username:
+            <input type="text" name="usn" id="usn">
+        </div>
+            <div class="pwd">
+                Enter the e-mail id:
+                <input type="text" name="email" id="email">
+            </div>
+            <div class="dob">
+                Enter the date of birth:
+                <input type="text" name="dob" id="dob">
+            </div>
+            <div class="pwd">
+                Enter new password:
+                        <input type="password" name="pwd" id="pwd">
+                    </div>
+                
+                <div class="cpwd"> 
+                    Confirm new password:
+                    
+                        <input type="password" name="cpwd" id="cpwd">
+                    </div>
+            <div class="submit">
+                <input type="button" onclick="return updatepwd()" name="Submit" value="Submit">
+            </div>
+                
+        </form>
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <script src="forgotpwd.js"></script>
+    </body>
+</html>

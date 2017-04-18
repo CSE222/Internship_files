@@ -1,0 +1,75 @@
+html
+{
+    float:left;
+   margin:0px;
+    width:100%;
+    height:100%;
+    
+}
+body
+{
+    float:left;
+    background-image: url("7.jpg");
+    color:white; 
+    margin:0px;
+    width:97%;
+    height:94%;
+    
+    background-repeat:no-repeat;
+    background-size :cover;
+    background-color:black;
+    font-family: Roboto;
+    padding:20px;
+}
+.headerph
+{
+    width:50%;
+    height:20%;
+    text-align:center;
+    font-size: 42px;
+    font-family: roboto-bold;
+    color:white;
+    position:fixed;
+    top:10%;
+    right:25%;
+    padding:10px;
+}
+.details
+{   float:left;
+    width:20%;
+    height:55%;
+    font-family: Roboto;
+    background-color:#E08998;
+    position:fixed;
+    top:33%;
+    padding:15px;
+    opacity:0.85;
+    right:40%;
+    border-radius: 15px;
+
+}
+.details1,.details2,.details3,.details5
+{
+    float:left;
+    width:100%;
+    height:15%;
+    color:white;
+    padding:6px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+.detail4
+{
+    float:left;
+    width:100%;
+    height:15%;
+    color:white;
+    padding:8px;
+    font-family: Roboto;
+    font-size: 20px;
+
+}/*  
+    Created on : Dec 14, 2015, 7:29:13 PM
+    Author     : Ishita
+*/
+
